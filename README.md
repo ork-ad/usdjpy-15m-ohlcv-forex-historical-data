@@ -1,6 +1,6 @@
 # USDJPY 15m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-12_523_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-607_493_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full USDJPY dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 15m OHLCV** for **US Dollar / Japanese Yen** (Forex)
 - **24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **12,523** `15m` rows in the full archive
+- **Free evaluation sample** on GitHub (`15m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **607,493** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `USDJPY_15m.csv` (12,133 rows, `2026-01-04` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **12,523** `15m` rows (~0.81 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-12-26` → `2026-07-02`.
+> **Sample on GitHub** · `USDJPY_15m.csv` (12,465 rows, `2026-01-04` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **607,493** `15m` rows (~33.83 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2001-11-28` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/usdjpy-15m-ohlcv-forex-hi
 |---|--:|---|
 | Instrument | US Dollar / Japanese Yen · Forex | US Dollar / Japanese Yen · Forex |
 | Timeframes | `15m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 15m rows | 12,133 | **12,523** |
-| Size | 0.79 MB | ~0.81 MB |
-| Period | `2026-01-04` → `2026-07-02` | `2025-12-26` → `2026-07-02` |
+| 15m rows | 12,465 | **607,493** |
+| Size | 0.75 MB | ~33.83 MB |
+| Period | `2026-01-04` → `2026-07-03` | `2001-11-28` → `2026-07-03` |
 | File | `USDJPY_15m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`USDJPY_15m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-04T22:00:00Z | 156.7006 | 156.7396 | 156.7006 | 156.7246 | 15.0 |
-| 2026-01-04T22:15:00Z | 156.7246 | 156.7696 | 156.7246 | 156.7286 | 218.0 |
-| 2026-01-04T22:30:00Z | 156.7286 | 156.7776 | 156.7286 | 156.7406 | 789.0 |
-| 2026-01-04T22:45:00Z | 156.7406 | 156.7406 | 156.6786 | 156.7096 | 975.0 |
-| 2026-01-04T23:00:00Z | 156.7096 | 156.8596 | 156.7096 | 156.7466 | 983.0 |
+| 2026-01-04T22:00:00Z | 156.713 | 156.752 | 156.713 | 156.737 | 15.0 |
+| 2026-01-04T22:15:00Z | 156.737 | 156.782 | 156.737 | 156.741 | 218.0 |
+| 2026-01-04T22:30:00Z | 156.741 | 156.79 | 156.741 | 156.753 | 789.0 |
+| 2026-01-04T22:45:00Z | 156.753 | 156.753 | 156.691 | 156.722 | 975.0 |
+| 2026-01-04T23:00:00Z | 156.722 | 156.872 | 156.722 | 156.759 | 983.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T21:15:00Z | 161.082 | 161.089 | 161.008 | 161.069 | 371.0 |
-| 2026-07-02T21:30:00Z | 161.069 | 161.112 | 161.065 | 161.098 | 1005.0 |
-| 2026-07-02T21:45:00Z | 161.098 | 161.105 | 161.045 | 161.047 | 529.0 |
-| 2026-07-02T22:00:00Z | 161.047 | 161.107 | 161.047 | 161.102 | 295.0 |
+| 2026-07-03T19:45:00Z | 161.39 | 161.39 | 161.363 | 161.381 | 395.0 |
+| 2026-07-03T20:00:00Z | 161.381 | 161.401 | 161.372 | 161.391 | 909.0 |
+| 2026-07-03T20:15:00Z | 161.391 | 161.403 | 161.375 | 161.398 | 1458.0 |
+| 2026-07-03T20:30:00Z | 161.398 | 161.399 | 161.341 | 161.382 | 2412.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USDJPY** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **12,523** rows at `15m`, plus all other timeframes in the same ZIP.
+The complete **USDJPY** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **607,493** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full USDJPY dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · USDJPY 15m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · USDJPY 15m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
